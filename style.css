@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Raleway, sans-serif;
+}
+
+.navbar {
+  font-size: 15px;
+  line-height: 20px;
+  padding: 0 16px;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  left: 0;
+  top: 0;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 2px 5px 0px,
+    rgba(0, 0, 0, 0.12) 0px 2px 10px 0px;
+}
+
+.d-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar li {
+  list-style: none;
+  padding: 25px 16px;
+  cursor: pointer;
+}
+
+.navbar li a {
+  text-decoration: none;
+  color: black;
+}
+
+.logo {
+  padding: 13px 16px;
+  font-weight: bold;
+  font-size: 25px;
+}
+.menu {
+  display: flex;
+}
+
+.menu li:hover,
+.logo:hover {
+  background-color: gainsboro;
+}
