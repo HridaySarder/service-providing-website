@@ -217,3 +217,35 @@ body {
 .number-content h2 {
   font-size: 36px;
 }
+
+.work-img {
+  width: 350px;
+}
+
+.work-img:hover {
+  opacity: 0.5;
+}
+
+footer {
+  background-color: #000000;
+  padding: 64px 0;
+}
+
+footer div {
+  line-height: 40px;
+  text-align: center;
+  color: white;
+}
+
+.footer-btn {
+  display: inline-block;
+  color: #000000;
+  text-decoration: none;
+  background-color: white;
+  padding: 5px 16px;
+  margin-bottom: 20px;
+}
+
+.footer-btn:hover {
+  background-color: #cccccc;
+}
