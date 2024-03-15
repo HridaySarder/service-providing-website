@@ -168,6 +168,10 @@ body {
   width: 100%;
 }
 
+.team-img:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
 .card-content {
   padding: 10px;
 }
@@ -194,4 +198,22 @@ body {
 
 .team-btn:hover {
   background-color: #cccccc;
+}
+
+.number-section {
+  margin-top: 130px;
+  background-color: #616161;
+  display: flex;
+  justify-content: space-around;
+  padding: 70px 16px;
+  color: white;
+}
+
+.number-content {
+  text-align: center;
+  line-height: 40px;
+}
+
+.number-content h2 {
+  font-size: 36px;
 }
