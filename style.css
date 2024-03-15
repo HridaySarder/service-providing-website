@@ -9,6 +9,7 @@ body {
 }
 
 .navbar {
+  background-color: white;
   font-size: 15px;
   line-height: 20px;
   padding: 0 16px;
@@ -16,6 +17,7 @@ body {
   z-index: 1;
   width: 100%;
   left: 0;
+  right: 0;
   top: 0;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 2px 5px 0px,
     rgba(0, 0, 0, 0.12) 0px 2px 10px 0px;
@@ -53,6 +55,15 @@ body {
   background-color: gainsboro;
 }
 
-.wrapper-title{
-  background-image: url();
+.header {
+  background-image: url("./asset/img/mac.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.wrapper-title {
+  color: white;
 }
