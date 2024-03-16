@@ -239,6 +239,39 @@ body {
   opacity: 0.5;
 }
 
+/* contact section */
+
+.contact-section {
+  background-color: #cccccc;
+  padding: 130px 24px 24px;
+  line-height: 30px;
+}
+
+.contact-title {
+  text-align: center;
+  line-height: 40px;
+}
+
+.contact-add {
+  text-align: center;
+  margin-top: 40px;
+}
+
+input {
+  display: block;
+  width: 100%;
+  padding: 15px;
+  margin: 15px 0;
+  color: gray;
+  border: 1px solid gray;
+}
+
+.contact-section img{
+  width: 100%;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
 footer {
   background-color: #000000;
   padding: 64px 0;
