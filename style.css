@@ -228,6 +228,7 @@ body {
   background-color: #616161;
   display: flex;
   justify-content: space-around;
+  align-items: center;
   padding: 70px 16px;
   color: white;
 }
@@ -302,6 +303,7 @@ body {
 .price-section {
   background-color: #616161;
   padding: 120px 24px;
+  margin: 0 auto;
 }
 
 .price-title {
@@ -313,12 +315,15 @@ body {
 
 .price-container {
   display: grid;
+  gap: 20px;
   grid-template-columns: repeat(3, 1fr);
   align-items: center;
+  justify-content: center;
 }
 
 .price {
   background-color: white;
+  margin: 0 auto;
   width: 474px;
   height: 500px;
 }
@@ -447,4 +452,45 @@ footer div {
 }
 .footer-icon i:hover {
   color: #616161;
+}
+
+@media screen and (max-width: 600px) {
+  .menu li {
+    display: none;
+  }
+  .d-flex {
+    flex-direction: column;
+  }
+  .d-grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .skill-section {
+    flex-direction: column;
+
+    width: 100%;
+  }
+  .price-container {
+    grid-template-columns: repeat(1, 1fr);
+    margin: 0 auto;
+  }
+  .design-section {
+    flex-direction: column;
+  }
+  .design-img {
+    width: 100%;
+  }
+  .number-section {
+    flex-direction: column;
+  }
+}
+
+@media screen and (min-width: 601px) and (max-width: 901px) {
+  .d-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .price-container {
+    grid-template-columns: repeat(1, 1fr);
+    align-items: center;
+  }
 }
