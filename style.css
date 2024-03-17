@@ -291,14 +291,14 @@ body {
   text-align: center;
 }
 
-.html {
+.photography {
   width: 90%;
 }
 
-.php {
+.web {
   width: 85%;
 }
-.css {
+.photoshop {
   width: 75%;
 }
 
@@ -307,7 +307,6 @@ body {
 .price-section {
   background-color: #616161;
   padding: 120px 24px;
-  margin: 0 auto;
 }
 
 .price-title {
@@ -473,8 +472,6 @@ footer div {
   }
   .skill-section {
     flex-direction: column;
-
-    width: 100%;
   }
 
   .skill-title {
@@ -509,8 +506,18 @@ footer div {
     grid-template-columns: repeat(2, 1fr);
   }
 
+  .design-title,
+  .design-img {
+    width: 50%;
+  }
+
   .price-container {
     grid-template-columns: repeat(1, 1fr);
     align-items: center;
+  }
+
+  .price,
+  .pro {
+    width: 100%;
   }
 }
