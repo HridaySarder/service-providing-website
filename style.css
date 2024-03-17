@@ -55,6 +55,8 @@ body {
   background-color: gainsboro;
 }
 
+/* banner section */
+
 .header {
   background: url("./asset/img/mac.jpg");
   background-repeat: no-repeat;
@@ -104,6 +106,8 @@ body {
   cursor: pointer;
 }
 
+/* about section */
+
 .about-section {
   margin-top: 130px;
   line-height: 30px;
@@ -133,6 +137,8 @@ body {
   font-size: 60px;
   margin-bottom: 20px;
 }
+
+/* design section */
 
 .design-section {
   margin-top: 130px;
@@ -169,6 +175,8 @@ body {
 .design-img {
   border-radius: 8px;
 }
+
+/* team section */
 
 .team-card {
   width: 350px;
@@ -213,6 +221,8 @@ body {
   background-color: #cccccc;
 }
 
+/* number section */
+
 .number-section {
   margin-top: 130px;
   background-color: #616161;
@@ -252,25 +262,28 @@ body {
 
 .skill-title {
   width: 50%;
+  line-height: 40px;
 }
 
 .progress {
   width: 50%;
+  line-height: 30px;
+}
+
+.progress p {
+  letter-spacing: 5px;
+  padding: 10px 0;
 }
 
 .container {
   background-color: rgb(192, 192, 192);
   width: 100%;
-  /* border-radius: 15px;  */
 }
 
 .skill {
   background-color: #616161;
   color: white;
-  padding: 5px 0;
   text-align: center;
-  /* font-size: 20px;  */
-  /* border-radius: 15px;  */
 }
 
 .html {
@@ -284,10 +297,97 @@ body {
   width: 75%;
 }
 
+/* price section */
+
+.price-section {
+  background-color: #616161;
+  padding: 120px 24px;
+}
+
+.price-title {
+  color: white;
+  text-align: center;
+  line-height: 50px;
+  margin-bottom: 100px;
+}
+
+.price-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+}
+
+.price {
+  background-color: white;
+  width: 474px;
+  height: 500px;
+}
+
+.pro {
+  background-color: white;
+  width: 474px;
+  height: 550px;
+}
+
+.benefit {
+  text-align: center;
+  /* line-height: 50px; */
+  border-bottom: 1px solid gray;
+  padding: 20px 0;
+}
+
+.price button {
+  display: block;
+  text-align: center;
+  overflow: hidden;
+  padding: 12px 24px;
+  background-color: #000000;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+  border: none;
+  margin: 0 auto;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.pro button {
+  display: block;
+  text-align: center;
+  overflow: hidden;
+  padding: 12px 24px;
+  background-color: #000000;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+  border: none;
+  margin: 0 auto;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.price button:hover {
+  background-color: #cccccc;
+  color: black;
+}
+
+.price-rate {
+  background-color: #000000;
+  color: white;
+  padding: 26px 32px;
+  text-align: center;
+}
+
+.price-rate-1 {
+  background-color: #f44336;
+  color: white;
+  padding: 50px 40px;
+  text-align: center;
+}
+
 /* contact section */
 
 .contact-section {
-  background-color: #cccccc;
+  background-color: #f1f1f1;
   padding: 130px 24px 24px;
   line-height: 30px;
 }
